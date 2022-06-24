@@ -1,0 +1,111 @@
+
+
+// Index
+.contenidoSeccionStock {
+	font-family: Bungee Shade;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 60px;
+	letter-spacing: -0.05em;
+	text-align: center;
+	cursor: pointer;
+}
+.coleccion__titulo--tipografia {
+	font-family: Bungee Shade;
+	font-size: 35px;
+	line-height: 31px;
+	text-align: center;
+	color: $blackText;
+}
+.coleccion__descripcion--tipografia {
+	font-family: Oswald;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	color: $blackText;
+	text-align: center;
+	box-sizing: border-box;		
+	padding: 4.17% 2%;
+}
+
+/*HOJA PRODUCTO*/
+.producto__descripcion--tipografia{
+	font-family:'Oswald';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 25px;
+	align-items: center;
+	text-align: center;
+	letter-spacing: -0.05em;
+	color: $blackProduct;
+}
+
+
+
+// HOJA INFORMACION
+#informacion main h2, #informacion main article h1{
+	font-family: Ultra;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 25px;
+	letter-spacing: -0.05em;
+	color: $blackText;
+}
+.títulosInformacion{
+	font-family: Ultra;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 25px;
+	letter-spacing: -0.05em;
+	color: $blackText;
+}
+.formulario h2, .formulario h1, .formulario form legend{
+	@extend .títulosInformacion;
+	font-size: 22px;
+}
+
+// comun a todas
+.subindice__inicio--tipografia{
+	font-family: Ultra;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 0px;
+	letter-spacing: -0.05em;
+	color: $blackText;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+.subindice__actual--tipografia{
+	font-family: Ultra;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 0px;
+	letter-spacing: -0.05em;
+	color: $blackText;
+}
+
+@media (min-device-width: 1px) and (max-device-width: 470px){
+	.subindice__actual--tipografia{
+		font-size: 27px;
+	}
+	.subindice__inicio--tipografia{
+		font-size: 15px;
+	}
+
+}
+
+@media (min-width: 1px) and (max-width: 470px){
+
+	.subindice__actual--tipografia{
+		font-size: 27px;
+	}
+	.subindice__inicio--tipografia{
+		font-size: 15px;
+	}
+}

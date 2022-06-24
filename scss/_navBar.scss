@@ -1,0 +1,42 @@
+.navbar{
+	display: block;
+}
+.bg-nav{
+	background: linear-gradient(180deg, $pinkDisfiuter 0%, rgba(255, 188, 212, 0) 100%);
+	margin: 0;
+}
+.bg-nav-index{
+	background-image: url(../fotos/slider.jpg);
+	background-color: none;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 110vh;
+	width: 100%;
+}
+.contenidoBotonera{
+	color: $blackText;
+	font-weight: 300;
+	font-size: 16px;
+	text-decoration: none;
+	letter-spacing: -0.05em;
+	line-height: 80px;
+	&:hover{
+		color: rgba(0, 0, 0, 0.9);
+		font-weight: 400;
+		font-size: 18px;
+		box-sizing: border-box;
+	}
+}
+#index .contenidoBotonera{
+	font-weight: 350;
+	color: rgba(0, 0, 0, 0.9);
+	font-size: 20px;
+	&:hover{
+		color: navajowhite;
+		font-weight: 400;
+		font-size: 20px;
+		box-sizing: border-box;
+		transition: 1s;
+	}
+}					

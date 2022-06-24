@@ -1,0 +1,62 @@
+#footer{
+	height: 70vh;
+	width: 100%;
+}
+.footerBackground {
+	background: linear-gradient(-45deg, $whiteText 0%, #e73c7e 5%, $blueDisfiuter 40%, $pinkDisfiuter 80%);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.footer{
+	width: 90%;
+	height: 100%;
+	@include flex-row();
+	margin: 0 5%;
+	box-sizing: border-box;
+}
+.footer__categorias--display{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	width: 20%;
+	box-sizing: border-box;
+	margin: 15% 0;
+	padding-left: 5%;
+}
+.footer__titulos--tipografia{
+	font-family:'Oswald';
+	font-size: 26px;
+	line-height: 24px;
+	color: $whiteText;
+	padding: 10% 0;
+}
+.footer__contenido--display{
+	display: flex;
+	flex-direction: column;
+	font-family: 'Oswald';
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 30px;
+	color: map-get($map:$colores, $key:'terciario');
+	padding: 10% 0;
+	box-sizing: border-box;
+	width: auto;		
+}	
+.footerContenido{
+	text-decoration: none;
+	color: $whiteText;
+	font-size: 15px;
+	@include margin-reset();
+}

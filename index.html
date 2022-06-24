@@ -1,12 +1,140 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<body>
+	<title>DisFiuter - Genderless Clothing</title>
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/disfiuter.css">
+	<meta name="description" content="Tienda de ropa para todos los géneros, talles inclusivos y la mejor ropita de todas">
+	<meta name= "keywords" content="ropa, tienda, online, encargo, a medida, a pedido, microtul, saten, trendy, moda, emprendimiento">
+	<meta name="author" content="Disfiuter">
+	<meta name="copyright" content="Disfiuter SRL Coopyright 2022">
+
 	
-<script type="text/javascript" src="js/main.js"></script>	
+</head>
+
+<body id="index" >
+
+
+	<nav class="navbar navbar-expand-md sticky-top-md navbar-light bg-nav-index p-0 ">
+
+	  <div class="container-fluid d-flex flex-md-column  justify-content-start bg-nav ">
+
+	  		<div class="w-25 m">
+		  		<button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	     				 <span class="navbar-toggler-icon"></span>
+	   			</button>
+	  		</div>
+
+	  		<a class="navbar-brand pt-4 text-center w-50 align-self-center text-center" href="index.html"><img src="fotos/logoSecundario.svg" alt="logo de disfiuter" width="auto" height="90"></a>   		
+
+
+		    <div class="container w-50 collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav me-auto  mb-lg-0 container-fluid d-flex justify-content-between menuHamburguesa">
+			        <li class="nav-item">
+			          <a class="nav-link contenidoBotonera" href="index.html">INICIO</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link contenidoBotonera" href="html/productos.html">PRODUCTOS</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link contenidoBotonera" href="html/informacion.html">INFORMACION</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link contenidoBotonera" href="html/encargos.html">ENCARGOS</a>
+			        </li>       
+			        <li class="nav-item">
+			          <a class="nav-link contenidoBotonera" href="html/contacto.html">CONTACTO</a>
+			        </li>
+				</ul>
+		    </div>
+	  </div>
+	</nav>
+		
+
+	<div id="seccionStock"> 
+		<div class = "contenedorSeccionStock fondoStock"><h2 class= "contenidoSeccionStock colorStock">STOCK</h2></div>
+		<div class = "contenedorSeccionStock fondoAmedida"><h2 class= "contenidoSeccionStock colorAmedida">A MEDIDA</h2></div>
+	</div>	
+	
+
+	<main id="coleccion">
+		<h2 class= "coleccion__titulo--tipografia">ETERNAL SUNCHASER</h2>
+		<p class= "coleccion__descripcion--tipografia">Primera colección de Disfiuter. Ropa por encargo para todos los géneros. Basada en las playas y atardeceres de la costa argentina, las vacaciones, los amigos y la sensacion de verano eterno</p>	
+		<div class="coleccionLayout">
+			<figure class= " productoContenedor">
+				<img class= "tamañoFoto" src="fotos/producto-body.webp" alt="Body de microtul estampado dragon">
+				<figcaption class="producto__descripcion--layout producto__descripcion--tipografia">
+					<a href="encargos.html" class="correctorVinculos producto__descripcion--tipografia">Body WaterDragon</a>
+					<p>$4.000,00</p>
+				</figcaption>
+			</figure>
+			<figure class= " productoContenedor">
+				<img class= "tamañoFoto" src="fotos/producto-top.webp" alt="Top de saten de seda estampado dragon">
+				<figcaption class="producto__descripcion--layout producto__descripcion--tipografia">
+					<a href="encargos.html" class="correctorVinculos producto__descripcion--tipografia">Top MoonDragon</a>
+					<p>$3.500,00</p>
+				</figcaption>
+			</figure>
+			<figure class= " productoContenedor">
+				<img class= "tamañoFoto" src="fotos/producto-top2.webp" alt="Polo de pique estampado">
+				<figcaption class="producto__descripcion--layout producto__descripcion--tipografia">
+					<a href="encargos.html" class="correctorVinculos producto__descripcion--tipografia">Polo Sunchaser</a>
+					<p>$5.000,00</p>
+				</figcaption>
+			</figure>	
+	</main>
+
+	<footer id= "footer" class="footerBackground" >
+		<div class= "footer">
+			
+			<div class="footer__categorias--display">
+				<h2 class= "footer__titulos--tipografia">Navegación</h2>
+				<div class= "footer__contenido--display">
+					<a class="footerContenido" href="../index.html">Inicio</a>
+					<a class="footerContenido" href="html/productos.html">Productos</a>
+					<a class="footerContenido" href="html/informacion.html">Informacion</a>
+					<a class="footerContenido" href="html/encargos.html">Encargos</a>
+					<a class="footerContenido" href="html/contacto.html">Contacto</a>
+				</div>
+			</div>
+			
+			<div class="footer__categorias--display">
+				<h2 class="footer__titulos--tipografia">Contacto</h2>
+				<div class= "footer__contenido--display">
+					<p class="footerContenido">acavaelmail@mimail.com.ar</p>
+					<p class="footerContenido">Calle Falsa 123</p>
+				</div>
+			</div>
+			
+			<div class="footer__categorias--display">
+				<h2 class="footer__titulos--tipografia">Medios de pago</h2>
+				<div class= "footer__contenido--display">
+					<p class="footerContenido">6 y 12 cuotas sin interés</p>
+					<p class="footerContenido">Mercado Pago</p>
+					<p class="footerContenido">Tarjetas de crédito y débito</p>
+					<p class="footerContenido">Transferencia bancaria</p>	
+				</div> 
+			</div>
+
+			<div class="footer__categorias--display">
+				<h2 class="footer__titulos--tipografia">Formas de envío</h2>
+				<div class= "footer__contenido--display">
+					<p class="footerContenido">Correo Argentino</p>
+					<p class="footerContenido">Retiro por showroom</p>	
+				</div>
+			</div>
+
+			<div class="footer__categorias--display">
+				<h2 class="footer__titulos--tipografia">Redes sociales</h2>
+				<div class= "footer__contenido--display">
+					<p ><a class="footerContenido" href="https://instagram.com/DisFiuter"><img src="fotos/icono-instagram.png" alt="icono instagram" target="_blank">DisFiuter</a></p>	
+				</div>
+		</div>		
+	</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 </html>

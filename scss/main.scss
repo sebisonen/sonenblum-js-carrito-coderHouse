@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Oswald:wght@200;300;400;500;600;700&family=Rock+3D&family=Ultra&display=swap');
+@import "_commons";
+@import "_fonts";
+@import "_navBar";
+@import "_footer";
+@import "_mediaqueries";
+hola
+/*HOJA INDEX*/
+#index { 
+	height: auto;
+	overflow-x: none;
+	@include margin-reset();
+	background-color: map-get($map:$colores, $key:'primario');
+	width: 100%;
+}
+
+/* Seccion Stock y A medida */
+#seccionStock {
+	width:  100%;
+	height:  85vh;
+	margin: 10% 0;
+	@include flex-row();
+	background-color: map-get($map:$colores, $key:'primario');
+	box-sizing: border-box;
+}
+.contenedorSeccionStock {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}	
+.colorStock {
+	color: $blackText;
+}
+.colorAmedida {
+	color: rgba(255, 204, 222, 1);
+}
+.fondoStock {
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 100%);
+}
+.fondoAmedida {
+	background: linear-gradient(180deg, #252A54 0%, rgba(37, 42, 84, 0) 100%);
+}
+
+/*seccion Coleccion nueva*/ 
+
+#coleccion{
+	padding: 0 15%;
+	box-sizing: border-box;
+	@include flex-column();
+}
+
+.coleccionLayout{
+	@include flex-row();
+	height: auto;
+	box-sizing: border-box;
+}
+.productoContenedor{
+	width: 33%;
+	padding: 4.17%;
+	box-sizing: border-box;
+	&:hover{
+		transition: all 1s;
+		border: none;
+		padding: 0;
+	}
+}
+
+/*CLASES REPETIDAS EN HOJA PRODUCTOS*/
+#producto .coleccionLayout{
+	flex-wrap: wrap;
+	width: 66.67%;
+	height: auto;
+	margin: 29px 16.665% 15% ;
+}
+.tamañoFoto{
+	display: block;
+	width: 100%;
+	height: 315px;
+	object-fit: cover;
+}
+#catalogo{
+	margin: 0 0 15% 0;
+}
+
+/*HOJA PRODUCTO*/
+#producto{
+	width: 100%;
+	height: auto;
+	overflow-x: none;
+	@include margin-reset();
+	background-color: map-get($map:$colores, $key:'terciario');
+}
+.subindiceMargenes{
+	width: 66.67%;
+	height: 40px;
+	text-align: left;
+	justify-content: center ;
+	align-items: center;
+	align-content: center;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+	margin: 29px 16.665%;
+}
+
+/*Hoja informacion*/
+#informacion main article, ul{
+	margin: 30px 16.665%;
+}
+#informacion main article p, h3, ul{
+	margin: 15px;
+}
+
+/*Hoja encargos*/
+.formulario form, .formulario h2, .formulario p, .formulario h1{
+	margin: 30px 16.665%;
+}
+.backgroundFormsPink{
+	background: radial-gradient(33.71% 47.64% at 50% 50%, #FFBCD4 0%, rgba(255, 188, 212, 0) 100%);
+	}
+.backgroundFormsBlue{
+	background: radial-gradient(33.71% 47.64% at 50% 50%, #BCBFFF 0%, rgba(255, 188, 240, 0) 74.88%);
+}
+fieldset{
+	margin: 10px 0;
+	border-radius: 10px;
+}

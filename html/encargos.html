@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Encargá ropa a medida</title>
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/disfiuter.css">
+	<meta name="description" content="Formulario de encargos de Disfiuter">
+	<meta name= "keywords" content="ropa, tienda, online, encargo, a medida, a pedido, microtul, saten, trendy, moda, emprendimiento">
+	<meta name="author" content="Disfiuter">
+	<meta name="copyright" content="Disfiuter SRL Coopyright 2022">
+</head>
+<body id="encargos">
+
+	<nav class="navbar navbar-expand-md  navbar-light bg-nav ">
+
+	  <div class="container-fluid d-flex flex-md-column  justify-content-start">
+	  		<div class="w-25 ">
+	  		<button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     				 <span class="navbar-toggler-icon"></span>
+   			</button>
+	  		</div>
+	  		<a class="navbar-brand pt-4 text-center w-50 align-self-center text-center" href="../index.html"><img src="../fotos/logoSecundario.svg" alt="logo de disfiuter" width="auto" height="90"></a>
+
+
+	   		
+
+
+		    <div class="container w-50 collapse navbar-collapse" id="navbarSupportedContent">
+		      <ul class="navbar-nav me-auto mb-2 mb-lg-0 container-fluid d-flex justify-content-between ">
+		        <li class="nav-item">
+		          <a class="nav-link contenidoBotonera" href="../index.html">INICIO</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link contenidoBotonera" href="productos.html">PRODUCTOS</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link contenidoBotonera" href="informacion.html">INFORMACION</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link contenidoBotonera" href="encargos.html">ENCARGOS</a>
+		        </li>       
+		        <li class="nav-item">
+		          <a class="nav-link contenidoBotonera" href="contacto.html">CONTACTO</a>
+		        </li>
+		      </ul>
+		    </div>
+	  </div>
+	</nav>
+
+
+	<div class="subindiceMargenes">
+		<h2 class="subindice__actual--tipografia"><a class=".correctorVinculos subindice__inicio--tipografia" href="../index.html">Inicio</a>/Encargos</h2>
+	</div>
+
+	<main class="formulario">
+		<h1>Encarga acá!</h1>
+		<p>El tiempo de confección de la prenda es de 10 a 15 días desde el pago de la seña</p>
+		<form action="error.html" mehtod="post" class="border border-1 border-dark">
+			<div class="backgroundFormsPink">
+			
+				<fieldset class="m-3">
+					<legend class="text-center my-4">Nombre completo</legend>
+					<div class=" d-md-flex flex-md-row justify-content-md-evenly">
+						<div class="text-center">
+							<label for="nombre" class="m-3 ">Nombre</label>
+							<input type="text" id="nombre" placeholder="Bruno"name="nombre" id="nombre" >
+						</div>
+						<div class="text-center">
+							<label for="apellido" class="m-3">Apellido</label>
+							<input type="text" id="apellido" placeholder="Diaz" name="apellido" id="apellido">
+						</div>
+					</div>
+				</fieldset>
+
+				<fieldset class="m-3">
+					<legend class="text-center my-4">Contacto</legend>
+					<div class=" d-md-flex flex-md-row justify-content-md-evenly">
+						<div class="text-center">
+							<label for="celular" class="m-3">Celular</label>
+							<input type="tel" placeholder="(+54)1122334455" name="celular" id="celular">
+						</div>
+						<div class="text-center">
+							<label for="email" class="m-3">Email</label>
+							<input type="email"placeholder="acava@tumail.com" name=email id="email">
+						</div>
+					</div>
+				</fieldset>
+
+				<fieldset class="m-3">
+					<legend class="text-center my-4">Productos</legend>
+					<div class="d-flex flex-column align-items-center flex-md-row justify-content-md-around my-4">
+						<div class="my-2 my-md-0">
+							<label for="body waterdragon">Body WaterDragon</label>
+							<input type="checkbox" name="body waterdragon" id="body waterDragon" value="body waterdragon">
+						</div>
+						<div class="my-2 my-md-0">
+							<label for="talle body waterdragon">Talle</label>
+							<select name="talle body waterdragon" id="talle body waterdragon">
+								<option value=""></option>
+								<option value="talle 1">1</option>
+								<option value="talle 2">2</option>
+								<option value="talle 3">3</option>
+								<option value="talle 4">4</option>
+								<option value="talle 5">5</option>
+							</select>
+						</div>
+						<div class="my-2 my-md-0">	
+							<label for="cantidad body waterdragon">Cantidad</label>
+							<select name="catidad body waterdragon" id="cantidad body waterdragon">
+								<option value=""></option>
+								<option value="cantidad 1">1</option>
+								<option value="cantidad 2">2</option>
+								<option value="cantidad 3">3</option>
+								<option value="cantidad 4">4</option>
+								<option value="cantidad 5">5</option>
+							</select>
+						</div>	
+					</div>
+					<div class="d-flex flex-column align-items-center flex-md-row justify-content-md-around my-4">
+						<div class="my-2 my-md-0">
+							<label for="top moondragon">Top MoonDragon</label>
+							<input type="checkbox" name="top moondragon" id="top moondragon" value="top moondragon">
+						</div>
+						<div class="my-2 my-md-0">
+							<label for="talle top moondragon">Talle</label>
+							<select name="talle top moondragon" id="talle top moondragon">
+								<option value=""></option>
+								<option value="talle 1">1</option>
+								<option value="talle 2">2</option>
+								<option value="talle 3">3</option>
+								<option value="talle 4">4</option>
+								<option value="talle 5">5</option>
+							</select>
+						</div>
+						<div class="my-2 my-md-0">	
+							<label for="cantidad top moondragon">Cantidad</label>
+							<select name="catidad top moondragon" id="cantidad top moondragon">
+								<option value=""></option>
+								<option value="cantidad 1">1</option>
+								<option value="cantidad 2">2</option>
+								<option value="cantidad 3">3</option>
+								<option value="cantidad 4">4</option>
+								<option value="cantidad 5">5</option>
+							</select>
+						</div>	
+					</div>
+					<div class="d-flex flex-column align-items-center flex-md-row justify-content-md-around my-4">
+						<div class="my-2 my-md-0">
+							<label for="polo sunchaser">Polo Sunchaser</label>
+							<input type="checkbox" name="polo sunchaser" id="polo sunchaser" value="polo sunchaser">
+						</div>
+						<div class="my-2 my-md-0">
+							<label for="talle polo sunchaser">Talle</label>
+							<select name="talle polo sunchaser" id="talle polo sunchaser">
+								<option value=""></option>
+								<option value="talle 1">1</option>
+								<option value="talle 2">2</option>
+								<option value="talle 3">3</option>
+								<option value="talle 4">4</option>
+								<option value="talle 5">5</option>
+							</select>
+						</div>
+						<div class="my-2 my-md-0">	
+							<label for="cantidad polo sunchaser">Cantidad</label>
+							<select name="catidad polo sunchaser" id="cantidad polo sunchaser">
+								<option value=""></option>				
+								<option value="cantidad 1">1</option>
+								<option value="cantidad 2">2</option>
+								<option value="cantidad 3">3</option>
+								<option value="cantidad 4">4</option>
+								<option value="cantidad 5">5</option>
+							</select>
+						</div>	
+					</div>						
+				</fieldset>
+			</div>
+			<div class="backgroundFormsBlue">
+				<fieldset class="m-3 px-4 d-flex flex-column align-items-between">
+					<legend class="text-center my-4">Envío</legend>
+					<div class="px-4">
+						<label for="envio">Envio a domicilio</label>
+						<input type="radio" name="envio" id="domicilio" value="local">
+					</div>
+					<div class="my-4 px-4 d-flex flex-column flex-md-row justify-content-around">
+						<label for="localidad" class="my-md-0 my-2">Localidad</label>
+						<select name="localidad" id="localidad" class=" mx-2 container-fluid" >
+							<option value="caba">CABA</option>
+							<option value="baires">Buenos Aires</option>
+							<option value="interior">Interior</option>
+						</select>
+						<label for="direccion" class="my-md-0 my-2">Direccion</label>
+						<input type="text" name="direccion" id="direccion" placeholder="Calle y numero" class=" mx-2 container-fluid">
+						<label for="piso" class="my-md-0 my-2">Piso/timbre</label>
+						<input type="text" name=piso id=piso placeholder="4b" class=" mx-2 container-fluid">	 
+					</div>
+					<div class="px-4">
+						<label for="envio">Retiro por Showroom</label>
+						<input type="radio" name="envio" id="local" value="local">
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend class="text-center my-4">Dejanos un mensaje</legend>
+					<label for="mensaje"></label>
+					<textarea name="mensaje" id="mensaje" cols="30" rows="10" class="w-100"></textarea>
+				</fieldset>
+				<input type="submit" value="Enviar">
+				<input type="reset" value="Cancelar">
+			</div>	
+		</form>
+	</main>	
+
+	<footer id= "footer" class="footerBackground" >
+		<div class= "footer">
+			
+			<div class="footer__categorias--display">
+				<h2 class= "footer__titulos--tipografia">Navegación</h2>
+				<div class= "footer__contenido--display">
+					<a class="footerContenido" href="../index.html">Inicio</a>
+					<a class="footerContenido" href="productos.html">Productos</a>
+					<a class="footerContenido" href="informacion.html">Informacion</a>
+					<a class="footerContenido" href="encargos.html">Encargos</a>
+					<a class="footerContenido" href="contacto.html">Contacto</a>
+				</div>
+			</div>
+			
+			<div class="footer__categorias--display">
+				<h2 class="footer__titulos--tipografia">Contacto</h2>
+				<div class= "footer__contenido--display">
+					<p class="footerContenido">acavaelmail@mimail.com.ar</p>
+					<p class="footerContenido">Calle Falsa 123</p>
+				</div>
+			</div>
+			
+			<div class="footer__categorias--display">
+				<h2 class="footer__titulos--tipografia">Medios de pago</h2>
+				<div class= "footer__contenido--display">
+					<p class="footerContenido">6 y 12 cuotas sin interés</p>
+					<p class="footerContenido">Mercado Pago</p>
+					<p class="footerContenido">Tarjetas de crédito y débito</p>
+					<p class="footerContenido">Transferencia bancaria</p>	
+				</div> 
+			</div>
+
+			<div class="footer__categorias--display">
+				<h2 class="footer__titulos--tipografia">Formas de envío</h2>
+				<div class= "footer__contenido--display">
+					<p class="footerContenido">Correo Argentino</p>
+					<p class="footerContenido">Retiro por showroom</p>	
+				</div>
+			</div>
+
+			<div class="footer__categorias--display">
+				<h2 class="footer__titulos--tipografia">Redes sociales</h2>
+				<div class= "footer__contenido--display">
+					<p ><a class="footerContenido" href="https://instagram.com/DisFiuter"><img src="../fotos/icono-instagram.png" alt="icono instagram" target="_blank">DisFiuter</a></p>	
+				</div>
+		</div>		
+	</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
